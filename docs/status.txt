@@ -1,0 +1,5 @@
+D:\Courses\2025_Fall\CEN4020-SoftwareEngineering\Assignment3\CEN4020-Git-Assignment-Fork>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean

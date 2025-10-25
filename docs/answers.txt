@@ -1,0 +1,41 @@
+Git Lab Tutorials: oct 24 2025
+GitHub Account created: june 2023
+
+1. Paste the console output you saved at the end of step 3.C (2 points)
+    out of habit i used vscode to commit the change so i didnt get a console output.
+    the commit id was 894f4da0a3eaf36e2fac0d6845768746dfd42a0f
+
+2. How many commits have been done to the repository (not only by you, but by anyone) so far? Write the git command you used to get this information (4 points)
+    9, git rev-list --count HEAD
+
+3. When was the README.md  file modified last? Write the git command you used to get this information (4 points)
+    Date:   Fri Oct 24 19:42:25 2025 -0400
+    git log -1 -- README.md
+
+4. Mention two reasons why branches are used in a Git repository (4 points)
+    develop seperate features and work collectively with others
+
+5. What is the difference between git log and git status? (4 points)
+    status gives the current state while the log shows the history of commits
+
+6. What command would you use to see the commits where “Vehicle.h” was one of the committed files? (4 points)
+    git log --follow --oneline -- Vehicle.h
+
+7. What command would you use to see the commits whose commit message contains the word “file”? (4 points)
+    git log --oneline -E --grep='\bfile\b' -i
+
+8. In the context of object-oriented programming (I) What is inheritance? (II) What is polymorphism? (III) What is encapsulation? (6 points)
+    (I) What is inheritance? 
+        sharing functionalities or traits between classes. a child class adopts the functionality or traits of the parent class
+    (II) What is polymorphism? 
+        the ability of a method or function to behave different in different scenarios and be reusable
+    (III) What is encapsulation?
+        limiting direct access to some data or functionality and also bundlling data+methods togehter to create a class
+
+9.  What is the main difference between the “Dictator and Lieutenants” workflow and the “Integration manager” workflow? (5 points)
+    Integration manager is one single person who manages merges and contributions.
+    Dictator and Lieutenants is a multilayerd hierarchy
+
+10. How would a team of 100 developers benefit from following the “Dictator and Lieutenants” workflow instead of the “Centralized” workflow? (5 points)
+    Dictator and Lieutenants would reduce the bottleneck of having one sole manager. the lieutenants would help read and merge code which would be alot for a single person to handle if there are 100 contributors.
+

@@ -1,5 +1,7 @@
 Git Lab Tutorials: oct 24 2025
 GitHub Account created: june 2023
+Proof the sample repo is Forked and Cloned: https://github.com/isaacjacques/CEN4020-Git-Assignment-Fork
+Git Lab Tutorials Completed: see screenshots included in submission
 
 1. Paste the console output you saved at the end of step 3.C (2 points)
     out of habit i used vscode to commit the change so i didnt get a console output.
